@@ -1,0 +1,6 @@
+Vulnerability: SQL Injection
+Page: DVWA SQL Injection
+Payload Used: ' OR '1'='1
+Result: Retrieved all user records from database
+Severity: High
+Suggested Fix: Use parameterized queries / prepared statements
