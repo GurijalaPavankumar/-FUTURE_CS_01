@@ -1,0 +1,6 @@
+Vulnerability: Cross-Site Scripting (XSS)
+Page: DVWA XSS (Reflected & Stored)
+Payload Used: <script>alert('XSS')</script>
+Result: Alert pop-up triggered when input was processed
+Severity: Medium to High
+Suggested Fix: Sanitize/escape user input before rendering it in the browser
