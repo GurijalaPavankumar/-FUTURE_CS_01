@@ -1,0 +1,6 @@
+Vulnerability: Weak Authentication (Default/Weak Passwords)
+Page: DVWA → Brute Force
+Creds Verified: admin / password
+Result: Login succeeded with a weak default password
+Severity: High
+Fix: Enforce strong password policy, prevent common/default passwords, add 2FA.
